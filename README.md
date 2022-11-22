@@ -10,6 +10,8 @@ Inspired by circular motion, this paper proposes a flipping mechanism population
 ## Search Performance
 ![convergence](./FTLBO/FIG7.png)
 
+![convergence](./FTLBO/FIG6.png)
+
 ## Algorithm pseudocode
 ![Teaching Phrase](./FTLBO/FIG3.png)
 
