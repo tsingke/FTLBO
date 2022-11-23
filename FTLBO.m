@@ -1,4 +1,4 @@
-function [gbestx,gbestfitness,gbesthistory]=FTLBO(popsize,dimension,xmax,xmin,vmax,vmin,MaxFEs,Func,FuncId)
+function [gbestx,gbestfitness,gbesthistory]=FTLBO(popsize,dimension,xmax,xmin,~,~,MaxFEs,Func,FuncId)
 
 IterFEs=popsize*3;  %每一次迭代评价多少次
 MaxIter=ceil((MaxFEs-popsize)/IterFEs);  %最多需要迭代多少次
